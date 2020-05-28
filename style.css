@@ -191,10 +191,10 @@ footer {
 footer>a {
   color: black;
 }
-  @media screen and (max-width:600px){
-/* .bigTitle>p{
-  width: 30%;
-} */
+  @media screen and (max-width:800px){
+.total{
+  width: 90%;
+}
 #p1{
   font-size: 1.5em;
 }
