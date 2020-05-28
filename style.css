@@ -119,9 +119,11 @@ li>a:hover {
   font-weight: bolder;
 }
 .totaltitle>i{
+  float: left;
   padding-left: 10px;
 }
 .about{
+  clear: both;
   margin: auto 4%;
 }
 hr{
