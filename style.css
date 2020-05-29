@@ -242,11 +242,16 @@ td {
   margin: 4%;
   grid-gap: 20px;
 }
-
+/* .useOut>div{
+  border: 1px solid black;
+} */
 .out1>p, .out2>p {
   color: red;
   font-size: 1.3em;
   font-weight: bold;
+}
+.out1>img,.out2>img{
+  width: 90%;
 }
 
 /* footer setting */
