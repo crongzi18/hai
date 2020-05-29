@@ -1,135 +1,158 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   /* min-width:800px; */
 }
-.total{
+
+.total {
   margin: auto;
   width: 60%;
 }
-.bigTitle{
+
+.bigTitle {
   height: 120px;
   background-color: #597387;
 }
-.pCon{
+
+.pCon {
   height: 120px;
   /* border: 1px solid black; */
   /* width: 60%; */
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   align-content: center;
   justify-content: center;
 }
-.pCon>div{
+
+.pCon>div {
   /* border: 1px solid red; */
   text-align: center;
 }
 
-#p1{
+#p1 {
   padding-top: 30px;
   font-size: 2em;
   text-align: right;
 }
-#p2{
+
+#p2 {
   padding-top: 20px;
   text-align: left;
   font-size: 3em;
   /* width: 30%; */
 }
-.bigTitle>img{
+
+.bigTitle>img {
   width: 150px;
   padding: 10px 30px;
   float: left;
 }
-.mynav{
+
+.mynav {
   border-radius: 5px;
   clear: both;
   /* width: 70%; */
   margin: 10px auto;
   background-color: #8c9ea3;
 }
-li{
+
+.nav-item {
   margin: auto;
   width: 15%;
   /* border: 1px black solid; */
   text-align: center;
 }
-a{
+
+a {
   font-weight: bold;
   color: white;
 }
 
-li>p{
+.nav-item>p {
   display: inline;
   color: black;
   /* font-size: 1.8em; */
-    /* font-weight: bold; */
+  /* font-weight: bold; */
 }
-li>a:hover {
+
+.nav-item>a:hover {
   /* text-decoration: underline; */
   color: yellow;
   text-shadow: 2px 2px 2px grey;
 }
-.indexPhoto{
+
+.indexPhoto {
   /* border: 1px solid red; */
   margin: 2% auto;
   text-align: center;
   /* margin: 2%; */
 }
-.indexPhoto>img{
+
+.indexPhoto>img {
   margin: auto 2%;
   /* border: 1px solid red; */
   width: 400px;
   display: inline;
 }
-.indexBot{
-}
-.indexBot>h4{
+
+.indexBot {}
+
+.indexBot>h4 {
   text-align: center;
   color: red;
   text-shadow: 2px 2px 2px grey;
 }
-.indexBot>h6{
+
+.indexBot>h6 {
   text-align: center;
   color: blue;
   text-shadow: 2px 2px 2px grey;
 }
+
 .borderLine {
   margin: 2% auto;
   height: 2px;
   border-bottom: 2px solid black;
 }
+
 /* about.css */
-.totalCon{
+.totalCon {
   border: 1px solid #958a56;
   border-radius: 5px;
 }
-.totaltitle{
+
+.totaltitle {
   height: 50px;
   margin: 1% 4%;
-   background-image: linear-gradient(to right , #F2F7FB, #9D9FA1);
+  background-image: linear-gradient(to right, #F2F7FB, #9D9FA1);
   border-radius: 5px;
 }
-.totaltitle>p{
+
+.totaltitle>p {
   font-size: 1.3em;
   font-weight: bolder;
 }
-.totaltitle>i{
+
+.totaltitle>i {
   float: left;
   padding-left: 10px;
 }
-.about{
+
+.about {
   clear: both;
   margin: auto 4%;
 }
-hr{
+
+hr {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
+
 /* business.html */
-.busiCon{
+.busiCon {
   margin-left: 4%;
   margin-bottom: 4%;
   margin-top: 4%;
@@ -137,12 +160,12 @@ hr{
   /* grid-template-columns: auto auto; */
   grid-template-rows: auto auto;
 }
-.busiCon>div{
 
+.busiCon>div {
   border: 1px solid black;
 }
 
-.middle{
+.middle {
   margin-left: 10px;
   padding-left: 10px;
   background-color: #D4D6D8;
@@ -152,35 +175,80 @@ hr{
   width: 50%;
 }
 
-.bottom{
-background-color: #F6F7F8 ;
-box-shadow: 2px 2px 2px grey;
-border-radius: 5px;
-/* grid-column: 1/3; */
+.bottom {
+  background-color: #F6F7F8;
+  box-shadow: 2px 2px 2px grey;
+  border-radius: 5px;
+  /* grid-column: 1/3; */
   width: 80%;
 }
+
 /* table */
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   font-size: 0.8em;
 }
-tr:nth-child(odd) {background-color: #f2f2f2;}
-th{
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+th {
   height: 35px;
   font-size: 1em;
   text-align: center;
   background-color: #C8D7F7;
   color: #2139E7;
 }
-td{
+
+td {
   height: 30px;
   /* background-color: #F8FAFE; */
 }
-.material_table{
+
+.material_table {
   margin: 10px auto;
-  width:90%;
+  width: 90%;
 }
+
+/* use */
+.useCon {
+  margin: 4%;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: auto auto;
+  /* grid-gap: 30px; */
+}
+
+.useCon>div {}
+
+.importleft>img {
+  width: 80%;
+}
+
+.listP {
+  color: blue;
+  font-size: 1.2em;
+}
+
+.list {
+  color: blue;
+}
+
+.useOut {
+  display: grid;
+  grid-template-rows: auto auto;
+  margin: 4%;
+  grid-gap: 20px;
+}
+
+.out1>p, .out2>p {
+  color: red;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
 /* footer setting */
 footer {
   margin: 0 2% 2% 2%;
@@ -191,14 +259,17 @@ footer {
 footer>a {
   color: black;
 }
-  @media screen and (max-width:800px){
-.total{
-  width: 100%;
-}
-#p1{
-  font-size: 1.5em;
-}
-#p2{
-  font-size: 2em;
-}
+
+@media screen and (max-width:800px) {
+  .total {
+    width: 100%;
   }
+
+  #p1 {
+    font-size: 1.5em;
+  }
+
+  #p2 {
+    font-size: 2em;
+  }
+}
